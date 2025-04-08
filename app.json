@@ -1,0 +1,123 @@
+{
+  "name": "Queen_Anita-V3",
+  "description": "Queen Anita V3 Is a Simple WA Bot Using Library Baileys",
+  "keywords": ["bot", "node", "baileys", "whatsapp"],
+  "logo": "https://files.catbox.moe/my977w.jpg",
+  "repository": "https://github.com/DeeCeeXxx1/Queen-Anita_V3",
+  "succes_url": "/",
+  "stack": "heroku-24",
+  "env": {
+    "SESSION_ID": {
+      "description": "Put your session ID",
+      "value": "{"noiseKey":{"private":{"type":"Buffer","data":"yEN9GlhvhsESEXHObI6omfNk9Re5e1fIfLHFlwSAsV8="},"public":{"type":"Buffer","data":"vdoN0lzIuYJjGmX/FbRrc9DwVgYG1OkjJbO8XfaJSHU="}},"pairingEphemeralKeyPair":{"private":{"type":"Buffer","data":"0PC2vgDBPyY4b+Y6DoyETG+pEmgh1n29PKXSWInlXUA="},"public":{"type":"Buffer","data":"Vj25jtI/WUa0JY/4ojVbR64jV6mdpuWs26rYEWXpgU8="}},"signedIdentityKey":{"private":{"type":"Buffer","data":"6JKJcCUykfmFX5TIcnr4/GLjfftyFdAWxSMDWjThrXw="},"public":{"type":"Buffer","data":"bvspe9hBNqZiuCOigq2SlkvMtMHdGHRUHQn6lAqFOS0="}},"signedPreKey":{"keyPair":{"private":{"type":"Buffer","data":"4DxLuk0bmh7YPb3xJ+B+8UY3vhR9ryM7PPsvqaZP2Xw="},"public":{"type":"Buffer","data":"477j8/Ra1jTKRzUNBujtHMoeyfScI+gUY47XCSbDZUs="}},"signature":{"type":"Buffer","data":"VUixYV6iMxbF5U2MAqyrAHqOU81QTB9Nb1DCv6dftdoHXxm4LQtI30jRuDsMubxQupCo0wBX6OUNNyOStB72jA=="},"keyId":1},"registrationId":190,"advSecretKey":"ZXWhgEm80LV0sW53QWL2GBe/j6Uwz3U5T25IslbpxBo=","processedHistoryMessages":[],"nextPreKeyId":31,"firstUnuploadedPreKeyId":31,"accountSyncCounter":0,"accountSettings":{"unarchiveChats":false},"deviceId":"r3M35eWHR9Wua5EoP0AMvA","phoneId":"bc3ebcc6-c62f-48c2-ba63-ee7289ef135e","identityId":{"type":"Buffer","data":"el4jS5Jg3BG6DBaVDV/lxiyNcs4="},"registered":true,"backupToken":{"type":"Buffer","data":"gmgW07PQ+d2gu53tX1NWX8nZk50="},"registration":{},"pairingCode":"QRR8GWLZ","me":{"id":"2347086731800:30@s.whatsapp.net","name":"Bin Munir"},"account":{"details":"CI7ApwgQ+dPSvwYYAyAAKAA=","accountSignatureKey":"6dL+MvKNZsZDNk/8pfmh+mk9h98fvqdI12RjA5TmRUo=","accountSignature":"Va5IY92TbW3hVivCbmNzAJlNfIjXS3AA/jOpHwFsfebS+8KUhoxSIFgxrD1JSaDIBywtOPMfLjgob+wwfUARCg==","deviceSignature":"yxU4pMUHHZPbmXYOytu+H2Bo2Sbs9hZnSdoCUWvh2BBnUtSXhjmFrOplEYmOg+wkAG9oP+HRCnRu2HbAXePLjA=="},"signalIdentities":[{"identifier":{"name":"2347086731800:30@s.whatsapp.net","deviceId":0},"identifierKey":{"type":"Buffer","data":"BenS/jLyjWbGQzZP/KX5ofppPYffH76nSNdkYwOU5kVK"}}],"platform":"smba","lastAccountSyncTimestamp":1744087559}",
+      "required": true
+    },
+    "OWNER_NUMBER": {
+      "description": "Enter the number that is hosting the bot (e.g., 2349066528353)",
+      "value": "234708673180p",
+      "required": true
+    },
+    "OWNER_NUMBERS": {
+      "description": "Enter the bot owner's number (e.g., 2349066528353)",
+      "value": "2349066528353",
+      "required": true
+    },
+    "PREFIX": {
+      "description": "Choose your bot prefix",
+      "value": ".",
+      "required": true
+    },
+    "PACK_NAME": {
+      "description": "Name of the sticker pack",
+      "value": "𝐐𝐔𝐄𝐄𝐍_𝐀𝐍𝐈𝐓𝐀-𝐕𝟑",
+      "required": false
+    },
+    "AUTHOR": {
+      "description": "Author name",
+      "value": "VIRUS",
+      "required": false
+    },
+    "PUBLIC": {
+      "description": "Set to true to make bot public",
+      "value": "false",
+      "required": false
+    },
+    "UNAVAILABLE": {
+      "description": "Set to true if bot is unavailable",
+      "value": "true",
+      "required": false
+    },
+    "AVAILABLE": {
+      "description": "Set to false if bot is unavailable",
+      "value": "false",
+      "required": false
+    },
+    "AUTO_READ_MESSAGES": {
+      "description": "Enable auto-read messages (true/false)",
+      "value": "false",
+      "required": false
+    },
+    "CHATBOT": {
+      "description": "Enable chatbot mode (true/false)",
+      "value": "false",
+      "required": false
+    },
+    "AUTO_REACT": {
+      "description": "Enable auto reactions (true/false)",
+      "value": "false",
+      "required": false
+    },
+    "AUTO_STATUS_VIEW": {
+      "description": "Enable auto status view (true/false)",
+      "value": "true",
+      "required": false
+    },
+    "AUTO_STATUS_REACT": {
+      "description": "Enable auto status reaction (true/false)",
+      "value": "true",
+      "required": false
+    },
+    "AUTO_TYPING": {
+      "description": "Enable auto typing indicator (true/false)",
+      "value": "false",
+      "required": false
+    },
+    "WELCOME": {
+      "description": "Enable welcome messages (true/false)",
+      "value": "false",
+      "required": false
+    },
+    "ANTI_CALL": {
+      "description": "Enable anti-call feature (true/false)",
+      "value": "false",
+      "required": false
+    },
+    "AUTO_BIO": {
+      "description": "Enable auto bio update (true/false)",
+      "value": "false",
+      "required": false
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql"
+    }
+  ]
+}
